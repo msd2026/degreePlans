@@ -1,0 +1,12 @@
+{ "name": "English",
+  "requirements" : [
+      { "type": "requiredCourse", "course": { "department" : "EN", "number": "101"}},
+      { "type": "oneOf",
+        "courses": [
+            { "department" : "EN", "number": "2001"},
+            { "department" : "EN", "number": "2002"}
+        ]
+      }
+      
+  ]
+}

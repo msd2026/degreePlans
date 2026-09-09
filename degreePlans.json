@@ -1,0 +1,6 @@
+{
+    "plans": [
+        {"name": "Computer Science", "path" : "cs.json"},
+        {"name": "English", "path" : "english.json"}
+    ]
+}

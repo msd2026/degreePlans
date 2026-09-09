@@ -1,0 +1,11 @@
+{ "name": "Computer Science",
+  "requirements": [
+      { "type": "requiredCourse", "course": { "department" : "CS", "number": "101"}},
+      { "type": "requiredCourse", "course": { "department" : "CS", "number": "102"}},
+      { "type": "oneOf", "courses": [
+          { "department" : "CS", "number": "2000"},
+          { "department" : "CS", "number": "2001"}]
+      }
+  ]
+
+}
